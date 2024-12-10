@@ -1,0 +1,101 @@
+# General OS-specific files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.swp
+*.lock
+
+# Build directories
+build/
+Build/
+bin/
+obj/
+out/
+
+# macOS specific
+*.dSYM
+*.app
+*.ipa
+
+# Windows specific
+*.exe
+*.dll
+*.lib
+*.pdb
+*.ilk
+*.obj
+*.suo
+*.ipch
+*.idb
+*.tlog
+*.lastbuildstate
+
+# Visual Studio specific
+*.vcxproj*
+*.vcproj*
+*.filters
+*.user
+*.sln
+*.VC.db
+*.opensdf
+*.sdf
+*.ncb
+*.unsaved
+*.suo
+*.vscode/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+Testing/
+*.cmake
+
+# Xcode specific
+*.pbxuser
+*.pbxproj
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.xcuserstate
+*.xcodeproj
+*.xcworkspace
+*.xcworkspacedata
+
+# CocoaPods
+Pods/
+
+# GLFW and Third-party Dependencies
+vendor/*
+!vendor/README.md # Allow documentation or specific files in vendor
+!vendor/glfw/      # Include GLFW if it's not managed as a submodule
+
+# Vulkan SDK (macOS)
+*.dylib
+*.icd.json
+*.layer.json
+
+# Vulkan SDK (Windows)
+*.dll
+*.lib
+*.pdb
+
+# Editor and temporary files
+*.bak
+*~
+*.sublime-workspace
+*.sublime-project
+*.idea/
+*.iml
+*.code-workspace
